@@ -30,7 +30,7 @@ export default function Login(){
 
     async function logIn(){
         try{
-            await Facebook.initializeAsync('213446393274192');
+            await Facebook.initializeAsync('<APP_ID>');
             const{
                 type,
                 token,
